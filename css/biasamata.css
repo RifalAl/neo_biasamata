@@ -1,0 +1,89 @@
+/*Begin:: index css*/
+input:-internal-autofill-selected {
+    padding-left: 15px;
+    width: 91.5%;
+    background-color: white !important;
+}
+.btn-login {
+    width: 100%;
+    padding: 12px 26px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fa5b0f;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    position: relative;
+    letter-spacing: 0;
+    transition: all 0.3s;
+    margin-top: 10px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.btn-login:hover{
+    background-color: #ef5911;
+    font-size: 15px;
+}
+#btn_searchjob {
+    margin-top:0px;
+    height:90%;
+}
+#search_job {
+    padding-left: 17px;
+}
+.j-card{
+    margin-bottom: 10px;
+}
+.job_card{
+    width: 100%;
+    height: 190px;
+    background-color: #151515;
+    padding: 0px 15px;
+    border-radius:10px;
+}
+.job_card:hover {
+ background-color: #303030;
+}
+.job_card_icon{
+    font-size: 3rem;
+    color: #fa5b0f;
+    margin-top: 1.5rem;
+}
+body.double-diagonal .newsletter .section-overlay, body.double-diagonal .call-to-action .section-overlay {
+    padding: 50px 0 180px;
+}
+body.double-diagonal .projectmanager .section-overlay {
+    padding: 110px 0 140px;
+}
+body.double-diagonal .about .container {
+    padding: 50px 15px 60px !important;
+}
+body.double-diagonal .about .container .informasi_jumlah {
+    padding: 50px 15px 20px !important;
+}
+
+
+@media (max-width: 767px)
+{
+    .footer li a {
+        font-size: 15px;
+    }
+    body.double-diagonal .footer .container {
+        padding: 53px 0;
+    }
+    .logo_slide {
+        width: 300px !important;
+        height: auto !important;
+    }
+}
+/*End:: index css*/
+
+/*Begin:: Search css*/
+
+/*End:: Search css*/
